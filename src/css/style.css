@@ -1,0 +1,190 @@
+body{
+	margin:0;
+	padding-top:55px;
+	}
+.baslik{
+	font-size:18px;
+	margin:0;
+	}
+h2{
+	font-size:45px;
+	}
+.kategoribaslik{
+		font-size:34px;
+		}
+.yazi{
+		font-size:20px;
+		margin:0;
+		padding:0;
+		font-family:"Times New Roman", Times, serif;
+	}
+.yaziortabaslik{
+		font-size:30px;
+	}
+.kutu{
+	width:800px;
+	height:800px;
+	}
+
+.bottom-left {
+    position: absolute;
+    top:10%;
+    left:5%;	
+	color:white;
+	
+	
+}
+#kutular{
+	background-color:rgba(51,51,51,0.25);
+	font-size:35px;
+	}
+#kutular2{
+	background-color:rgba(51,51,51,0.25);
+	font-size:22px;
+	}
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+cursor:pointer;
+}
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+
+#yanmenu li{
+	list-style:none;
+	color:black;
+	margin-bottom:20px;
+	font-size:18px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+#yanmenu li a{
+	
+	color:black;
+	
+	}
+#yanmenu li a:hover{
+	transition:150ms;
+	text-decoration:none;
+	color:#FF5C42;
+	
+	}
+	#yanmenu li a#bas {
+		color:#FF5C42;
+		
+		}
+	#yanmenu li a#bas:hover {
+		transition:150ms;
+		color:black;
+		
+		}
+#icerikbaslik{
+	color:black;
+	text-decoration:none;
+	}
+#icerikbaslik:hover{
+	transition:150ms;
+	color:#FF5C42;
+	text-decoration:none;
+	}
+.social-icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li{
+  display: inline-block;
+  text-align: center;
+}
+
+.social-icon a {
+  display: block;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 50%;
+  margin-right: 5px;
+  float:left;
+}
+
+
+
+.footer {
+  margin-top:30px;
+  bottom: 0;
+  padding-top: 5px;
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+}
+#footertext{
+	margin-top:23px;
+	text-align:right;
+	
+	}
+.icons a{
+	float:left;
+	}
+.icons{
+	float:right;
+	padding-bottom:10px;
+	}
+.footerlink{
+	text-decoration:none;
+	color:#FF5C42;
+	}
+.footerlink:hover{
+	text-decoration:none;
+	color:#FF5C42;
+	}
+	
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+.arama{
+	margin:10px 0 50px 50px;
+	font-size:60px;
+		font-family:Verdana, Geneva, sans-serif;
+	}
+
